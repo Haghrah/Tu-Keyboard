@@ -1,6 +1,6 @@
 default  partial alphanumeric_keys
 xkb_symbols "basic" {
-    name[Group1]= "Tu";
+    name[Group1]= "Turki";
 
     key <AE01> { [ 0x10006f1,	exclam,		grave			] };
     key <AE02> { [ 0x10006f2,	at,		0x100066c		] };
