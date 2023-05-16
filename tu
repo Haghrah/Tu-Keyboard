@@ -30,7 +30,7 @@ xkb_symbols "basic" {
     key <AC02> { [ Arabic_seen,		Arabic_damma,	VoidSymbol	] };
     key <AC03> { [ Farsi_yeh,		Arabic_kasra,		Arabic_alefmaksura ] };
     key <AC04> { [ Arabic_beh,		Arabic_shadda,	VoidSymbol	] };
-    key <AC05> { [ Arabic_lam,		0x10006AD           ,	0x10006B2	] };
+    key <AC05> { [ Arabic_lam,		0x10006AD,          division		] };
     key <AC06> { [ Arabic_alef,		Arabic_maddaonalef,	0x1000671	] };
     key <AC07> { [ Arabic_teh,		Arabic_tatweel ,	0x1000643	] };
     key <AC08> { [ Arabic_noon,		guillemotright,		0x100fd3e	] };
@@ -49,7 +49,7 @@ xkb_symbols "basic" {
     key <AB09> { [ period,		less,			apostrophe	] };
     key <AB10> { [ slash,		Arabic_question_mark,	question	] };
 
-    key <TLDE> { [ 0x100200d,		division,		asciitilde	] };
+    key <TLDE> { [ 0x100200d,		0x10006B2,		asciitilde	] };
     key <AE11> { [ minus,		underscore,		underscore	] };
     key <AE12> { [ equal,		plus,			0x1002212	] };
     key <BKSL> { [ Arabic_peh,		bar,			0x1002010	] };
