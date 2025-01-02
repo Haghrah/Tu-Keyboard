@@ -36,10 +36,10 @@ xkb_symbols "basic" {
     key <AC08> { [ Arabic_noon,		guillemotright,		0x100fd3e	] };
     key <AC09> { [ Arabic_meem,		guillemotleft,		0x100fd3f	] };
     key <AC10> { [ Arabic_keheh,	colon,			semicolon	] };
-    key <AC11> { [ Arabic_gaf,		0x1000022,         	quotedbl	] };
+    key <AC11> { [ Arabic_gaf,		0x100063d,		quotedbl	] };
 
     key <AB01> { [ Arabic_zah,		Arabic_tehmarbuta,	VoidSymbol	] };
-    key <AB02> { [ Arabic_tah,		"وْ",		VoidSymbol	] };
+    key <AB02> { [ Arabic_tah,		0x10006DF,		VoidSymbol	] };
     key <AB03> { [ Arabic_zain,		Arabic_jeh,	        Arabic_hamza_above] };
     key <AB04> { [ Arabic_ra,		Arabic_hamzaonwaw   ,	0x1000656	] };
     key <AB05> { [ Arabic_thal,		Arabic_hamzaunderalef,	0x100200c	] };
