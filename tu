@@ -39,7 +39,7 @@ xkb_symbols "basic" {
     key <AC11> { [ Arabic_gaf,		0x1000022,         	quotedbl	] };
 
     key <AB01> { [ Arabic_zah,		Arabic_tehmarbuta,	VoidSymbol	] };
-    key <AB02> { [ Arabic_tah,		Arabic_yeh,		VoidSymbol	] };
+    key <AB02> { [ Arabic_tah,		"وْ",		VoidSymbol	] };
     key <AB03> { [ Arabic_zain,		Arabic_jeh,	        Arabic_hamza_above] };
     key <AB04> { [ Arabic_ra,		Arabic_hamzaonwaw   ,	0x1000656	] };
     key <AB05> { [ Arabic_thal,		Arabic_hamzaunderalef,	0x100200c	] };
